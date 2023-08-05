@@ -1,0 +1,11 @@
+
+title: C. Thubert
+description: >-
+  Christopher THUBERT | Site Web
+  Développeur fullstack
+baseurl: ""
+url: "https://cthubert-fr.github.io"
+timezone: Europe/Paris
+
+# Build settings
+markdown: kramdown
