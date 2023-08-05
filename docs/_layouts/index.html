@@ -6,6 +6,16 @@
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/style.css" />
 	</head>
 	<body>
-		{{ content }}
+		<header>
+			<h1>
+				<a href="{{ site.url }}" >Christopher Thubert</a>
+			</h1>
+		</header>
+		<div id="main-container" >
+			{{ content }}
+			<footer>
+				<p>© {{ site.time | date: "%Y" }} - Christopher THUBERT</p>
+			</footer>
+		</div>
 	</body>
 </html>
