@@ -61,6 +61,13 @@ section #cuisine-plats {
 section #cuisine-plats li {
 	padding-left: 1%;
 }
+section .ressource {
+	list-style-type: "\01F440";
+	text-align: left;
+}
+section .ressource li {
+	padding-left: 1%;
+}
 footer {
 	height: 3%;
 	padding-bottom: 0.2%;
