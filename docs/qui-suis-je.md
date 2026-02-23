@@ -18,7 +18,7 @@ permalink: /qui-suis-je
 		L'ensemble de mes expérimentations de cette époque ne sont pas sortie de mon ordinateur. Mais c'est sûrement ce qui m'a donné le goût pour l'informatique.
 	</p>
 	<p>
-		Aujourd'hui je développe en Java, JavaScript, C++, PHP et Python. Et un certain nombre de mes projets personnelles finissent ici ou là sur GitHub. Ainsi je vous encourage à fouiller sur <a href="https://github.com/chris-scientist" >mes dépôts publics</a>&nbsp;<span class="smiley" >&#x1F609;</span>
+		Aujourd'hui je développe en Java, JavaScript (et TypeScript), C++, PHP et Python. Et un certain nombre de mes projets personnelles finissent ici ou là sur GitHub. Ainsi je vous encourage à fouiller sur <a href="https://github.com/chris-scientist" >mes dépôts publics</a>&nbsp;<span class="smiley" >&#x1F609;</span>
 	</p>
 	<p>
 		Depuis fin 2016, j'occupe un poste de développeur fullstack.
@@ -37,5 +37,8 @@ permalink: /qui-suis-je
 	</p>
 	<p>
 		Que le contenu de ce site vous enchantent !
+	</p>
+	<p>
+		Si vous souhaitez me rejoindre sur l'une de vos plateformes favorites : voici <a href="https://findme.cthubert.fr" >quelques adresses où me trouver</a> !
 	</p>
 </section>
