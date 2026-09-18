@@ -19,8 +19,9 @@ header .left-menu-mobile {
 	display: none;
 }
 header h1 {
-	text-align: left;
-	padding-left: 38%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 p {
 	font-family: Baskerville;
