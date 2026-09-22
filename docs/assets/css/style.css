@@ -342,6 +342,9 @@ footer {
 	footer {
 		font-size: 1.8em;
 	}
+	#toc {
+	    display: none;
+	}
 }
 /* For Surface in portrait */
 @media only screen and (max-device-width: 912px) and (max-device-height: 1368px) and (orientation: portrait) {
@@ -356,6 +359,9 @@ footer {
 	}
 	section ul li {
 		font-size: 1.8em;
+	}
+	#toc {
+	    display: none;
 	}
 }
 /* In portrait */
@@ -372,6 +378,9 @@ footer {
 	section {
 		margin-bottom: 10%;
 	}
+    #toc {
+        display: none;
+    }
 }
 /* In landscape */
 @media only screen and (orientation: landscape) and (
@@ -390,4 +399,7 @@ footer {
 	header {
 		margin-bottom: 8%;
 	}
+    #toc {
+        display: none;
+    }
 }
