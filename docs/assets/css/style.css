@@ -79,7 +79,155 @@ footer {
    ** Début style Curriculum Vitae                                      **
    *********************************************************************** */
 
-/*#cv*/ 
+#cv {
+    text-align: left;
+    font-size: 0.8em;
+}
+
+#cv article .catamania .sub-xp {
+    border-top: 2px dashed #00BFFF;
+    border-bottom: 6px solid #00BFFF;
+    border-left: 2px solid #00BFFF;
+    border-right: 2px dashed #00BFFF;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+#cv article .catamania .project {
+    border: 2px solid #00BFFF;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 8px;
+}
+
+#cv article .apprenticeship .sub-xp {
+    border-top: 2px dashed #8FBC8F;
+    border-bottom: 6px solid #8FBC8F;
+    border-left: 2px solid #8FBC8F;
+    border-right: 2px dashed #8FBC8F;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+#cv article .apprenticeship .project {
+    border: 2px solid #8FBC8F;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 8px;
+}
+
+#cv article .trainee .sub-xp {
+    border-top: 2px dashed #FFDEAD;
+    border-bottom: 6px solid #FFDEAD;
+    border-left: 2px solid #FFDEAD;
+    border-right: 2px dashed #FFDEAD;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+#cv article .trainee .project {
+    border: 2px solid #FFDEAD;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 8px;
+}
+
+#cv article .catamania h3,
+#cv article .apprenticeship h3,
+#cv article .trainee h3 {
+	font-size: 1.4em;
+}
+
+#cv article .catamania h4,
+#cv article .apprenticeship h4,
+#cv article .trainee h4 {
+	font-size: 1.2em;
+}
+
+#cv article .catamania .sub-xp h5,
+#cv article .apprenticeship .sub-xp h5,
+#cv article .trainee .sub-xp h5 {
+	font-size: 1.2em;
+}
+
+#cv article .catamania .sub-xp .resume-xp h6,
+#cv article .apprenticeship .sub-xp .resume-xp h6,
+#cv article .trainee .sub-xp .resume-xp h6 {
+	font-size: 1em;
+	margin: 0px;
+}
+
+#cv article .catamania .sub-xp .resume-xp h6 {
+    border-bottom: 2px dotted #00BFFF;
+}
+
+#cv article .apprenticeship .sub-xp .resume-xp h6 {
+    border-bottom: 2px dotted #8FBC8F;
+}
+
+#cv article .trainee .sub-xp .resume-xp h6 {
+    border-bottom: 2px dotted #FFDEAD;
+}
+
+#cv article .catamania .sub-xp .project h6,
+#cv article .apprenticeship .sub-xp .project h6,
+#cv article .trainee .sub-xp .project h6 {
+	font-size: 1em;
+}
+
+#cv article .catamania h3,
+#cv article .catamania h4 {
+    color: #00BFFF;
+}
+
+#cv article .apprenticeship h3,
+#cv article .apprenticeship h4 {
+    color: #8FBC8F;
+}
+
+#cv article .trainee h3,
+#cv article .trainee h4 {
+    color: #FFDEAD;
+}
+
+#cv article .catamania .sub-xp .resume-xp .tools li,
+#cv article .apprenticeship .sub-xp .resume-xp .tools li,
+#cv article .trainee .sub-xp .resume-xp .tools li {
+    font-size: 0.8em;
+}
+
+#cv article .catamania .sub-xp .resume-xp .tools,
+#cv article .apprenticeship .sub-xp .resume-xp .tools,
+#cv article .trainee .sub-xp .resume-xp .tools {
+    /* Retirer les puces par défaut et les marges */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 2%;
+
+    /* Utiliser flexbox pour aligner facilement sur une ligne */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem; /* Espace autour des éléments */
+}
+
+/* Ajouter l'astérisque après chaque élément */
+#cv article .catamania .sub-xp .resume-xp .tools li::after,
+#cv article .apprenticeship .sub-xp .resume-xp .tools li::after,
+#cv article .trainee .sub-xp .resume-xp .tools li::after {
+    content: "¤";
+    margin-left: 0.5rem; /* Espace avant l'astérisque */
+}
+
+/* Retirer l'astérisque du tout dernier élément de la liste */
+#cv article .catamania .sub-xp .resume-xp .tools li:last-child::after,
+#cv article .apprenticeship .sub-xp .resume-xp .tools li:last-child::after,
+#cv article .trainee .sub-xp .resume-xp .tools li:last-child::after {
+    content: "";
+}
 
 /* ***********************************************************************
    ** Fin style Curriculum Vitae                                        **

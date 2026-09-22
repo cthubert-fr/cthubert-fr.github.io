@@ -22,7 +22,7 @@ permalink: /cv
 	</article>
 	<article>
 		<h2>Expériences</h2>
-		<div class="main-xp" >
+		<div class="catamania" >
 			<h3>CDI - Analyste Développeur</h3>
 			<h4>Catamania, Depuis octobre 2016</h4>
 			<div class="sub-xp" >
@@ -42,30 +42,26 @@ permalink: /cv
 						Développeur Full Stack
 					</p>
 					<h6>Outils</h6>
-					<p>
-						<ul>
-							<li>Java 17</li>
-							<ul>
-								<li>Spring Boot</li>
-								<li>Hibernate</li>
-								<li>Swagger</li>
-								<li>JUnit</li>
-								<li>Mockito</li>
-							</ul>
-							<li>TypeScript</li>
-							<li>Angular</li>
-							<li>SQL Server / PostgreSQL</li>
-							<li>IntelliJ</li>
-							<li>Visual Studio Code</li>
-							<li>Bruno</li>
-							<li>Git</li>
-							<li>GitLab</li>
-							<li>Sonar</li>
-							<li>Graylog</li>
-							<li>Copilot</li>
-							<li>Jira</li>
-                        </ul>
-					</p>
+					<ul class="tools" >
+                        <li>Java 17</li>
+                        <li>Spring Boot</li>
+                        <li>Hibernate</li>
+                        <li>Swagger</li>
+                        <li>JUnit</li>
+                        <li>Mockito</li>
+                        <li>TypeScript</li>
+                        <li>Angular</li>
+                        <li>SQL Server / PostgreSQL</li>
+                        <li>IntelliJ</li>
+                        <li>Visual Studio Code</li>
+                        <li>Bruno</li>
+                        <li>Git</li>
+                        <li>GitLab</li>
+                        <li>Sonar</li>
+                        <li>Graylog</li>
+                        <li>Copilot</li>
+                        <li>Jira</li>
+                    </ul>
 				</div>
 				<div class="project" >
 					<h6>Création d'un document d'onboarding</h6>
@@ -76,13 +72,13 @@ permalink: /cv
 						Parmis le contenu, on retrouve :
 						<ul>
 							<li>La configuration de son environnement de travail (IDE, projets, etc).</li>
-							<li>Des astuces divers et variés (métier ou IT).</li>
+							<li>Des astuces divers et variés (métiers ou IT).</li>
 							<li>Etc</li>
 						</ul>
 					</p>
 				</div>
 				<div class="project" >
-					<h6>Création de endpoint à destination d'un batch</h6>
+					<h6>Création de endpoints à destination d'un batch</h6>
 					<p>
 						J'ai développé plusieurs endpoint pour extraire des données de la base de données et exposé des données consolidées pour un traitement de masse (batch).<br/>
 						Ce batch a pour objectif de faire une rapport comptable.
@@ -146,29 +142,25 @@ permalink: /cv
 						Développeur Full Stack / Back-End
 					</p>
 					<h6>Outils</h6>
-					<p>
-						<ul>
-							<li>Java</li>
-							<ul>
-								<li>JEE</li>
-								<li>JUnit</li>
-								<li>Mockito</li>
-							</ul>
-							<li>TypeScript</li>
-							<li>Vue.js 3</li>
-							<li>Oracle (base de données)</li>
-							<li>Eclipse</li>
-							<li>Visual Studio Code</li>
-							<li>Postman</li>
-							<li>SVN</li>
-							<li>Jenkins</li>
-							<li>Sonar</li>
-							<li>Graylog</li>
-							<li>Mantis</li>
-							<li>GLPI</li>
-							<li>Jira</li>
-                        </ul>
-					</p>
+                    <ul class="tools" >
+                        <li>Java</li>
+                        <li>JEE</li>
+                        <li>JUnit</li>
+                        <li>Mockito</li>
+                        <li>TypeScript</li>
+                        <li>Vue.js 3</li>
+                        <li>Oracle (base de données)</li>
+                        <li>Eclipse</li>
+                        <li>Visual Studio Code</li>
+                        <li>Postman</li>
+                        <li>SVN</li>
+                        <li>Jenkins</li>
+                        <li>Sonar</li>
+                        <li>Graylog</li>
+                        <li>Mantis</li>
+                        <li>GLPI</li>
+                        <li>Jira</li>
+                    </ul>
 				</div>
 				<div class="project" >
 					<h6>Création d'un projet Vue.js</h6>
@@ -251,15 +243,13 @@ permalink: /cv
 						Analyste / Développeur / Chef de projet
 					</p>
 					<h6>Outils</h6>
-					<p>
-						<ul>
-							<li>PHP</li>
-							<li>Synfomy 2</li>
-							<li>PostgreSQL</li>
-							<li>Modélio (UML)</li>
-							<li>Linux</li>
-                        </ul>
-					</p>
+					<ul class="tools" >
+                        <li>PHP</li>
+                        <li>Synfomy 2</li>
+                        <li>PostgreSQL</li>
+                        <li>Modélio (UML)</li>
+                        <li>Linux</li>
+					</ul>
 				</div>
 				<div class="project" >
 					<h6>Première année d'apprentissage</h6>
@@ -327,16 +317,14 @@ permalink: /cv
 						Développeur Application Web
 					</p>
 					<h6>Outils</h6>
-					<p>
-						<ul>
-							<li>PHP 5</li>
-							<li>HTML 5</li>
-							<li>CSS 3</li>
-							<li>jQuery</li>
-							<li>PostgreSQL</li>
-							<li>Linux</li>
-                        </ul>
-					</p>
+                    <ul class="tools" >
+                        <li>PHP 5</li>
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>jQuery</li>
+                        <li>PostgreSQL</li>
+                        <li>Linux</li>
+                    </ul>
 				</div>
 				<div class="project" >
 					<h6>Développement modules pour application Web</h6>
@@ -358,7 +346,7 @@ permalink: /cv
 				<div class="resume-xp" >
 					<h6>Qui</h6>
 					<p>
-						Dans le cadre de ma DUT informatique, j'ai réalisé mes dix semaines de stage au sein du service informatique du Groupe Ridoret : Ridinfo, à La Rochelle.
+						Dans le cadre de mon DUT informatique, j'ai réalisé mes dix semaines de stage au sein du service informatique du Groupe Ridoret : Ridinfo, à La Rochelle.
 					</p>
 					<h6>Quand</h6>
 					<p>
@@ -369,11 +357,9 @@ permalink: /cv
 						Développeur Informatique de gestion
 					</p>
 					<h6>Outil</h6>
-					<p>
-						<ul>
-							<li>Windev</li>
-						</ul>
-					</p>
+                    <ul class="tools" >
+                        <li>Windev</li>
+                    </ul>
 				</div>
 				<div class="project" >
 					<h6>Développement informatique de gestion</h6>
@@ -457,18 +443,20 @@ permalink: /cv
 				Le développement logiciels est une grande source d'inspiration pour moi.<br />
 				Un certain nombres de mes projets sont disponibles en publics sur <a href="https://github.com/chris-scientist" >mon profil GitHub</a>.<br />
 				Parmi mes projets, nous pouvons citer notamment :
-				<ul>
-					<li>Certains des projets autour de Gamebuino :</li>
-					<ul>
-						<li>Rubik's cube (jeu vidéo),</li>
-						<li>Puissance 4 (jeu vidéo),</li>
-						<li>Introduction au développement de jeu de plateformes (atelier),</li>
-						<li>Etc</li>
-					</ul>
-					<li>Je suis également actif sur CodinGame et Pydefys.</li>
-					<li>Je vous laisse retourner le web pour retrouver d'autres projets&nbsp;<span class="smiley" >&#x1F609;</span></li>
-				</ul>
 			</p>
+            <ul>
+                <li>
+                    Certains des projets autour de Gamebuino :
+                    <ul>
+                        <li>Rubik's cube (jeu vidéo),</li>
+                        <li>Puissance 4 (jeu vidéo),</li>
+                        <li>Introduction au développement de jeu de plateformes (atelier),</li>
+                        <li>Etc</li>
+                    </ul>
+                </li>
+                <li>Je suis également actif sur CodinGame et Pydefys.</li>
+                <li>Je vous laisse retourner le web pour retrouver d'autres projets&nbsp;<span class="smiley" >&#x1F609;</span></li>
+            </ul>
 		</div>
 		<div class="hobby" >
 			<h3>Photographie</h3>
