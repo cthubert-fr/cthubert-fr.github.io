@@ -79,6 +79,22 @@ footer {
    ** Début style Curriculum Vitae                                      **
    *********************************************************************** */
 
+#toc ul {
+    position: fixed;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 18%;
+    margin-left: 2%;
+    padding-right: 2%;
+    text-align: right;
+    border-right: 6px solid #F8F8FF;
+}
+
+#toc ul li {
+    padding-bottom: 2px;
+}
+
 #cv {
     text-align: left;
     font-size: 0.8em;
@@ -135,15 +151,68 @@ footer {
     padding: 8px;
 }
 
+#cv article .pro-form {
+    border: 2px solid #FF6347;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 8px;
+}
+
+#cv article .university {
+    border: 2px solid #7B68EE;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 8px;
+}
+
+#cv article .hobby {
+    border: 2px solid #6495ED;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 8px;
+}
+
+#cv article .pro-form p {
+    border-top: 2px dotted #FF6347;
+    padding-top: 8px;
+}
+
+#cv article .university p {
+    border-top: 2px dotted #7B68EE;
+    padding-top: 8px;
+}
+
+#cv article .hobby p {
+    border-top: 2px dotted #6495ED;
+    padding-top: 8px;
+}
+
+#cv article .pro-form-text {
+    color: #FF6347;
+}
+
+#cv article .university-text {
+    color: #7B68EE;
+}
+
+#cv article .hobby-text {
+    color: #6495ED;
+}
+
 #cv article .catamania h3,
 #cv article .apprenticeship h3,
-#cv article .trainee h3 {
+#cv article .trainee h3,
+#cv article .pro-form h3,
+#cv article .university h3,
+#cv article .hobby h3 {
 	font-size: 1.4em;
 }
 
 #cv article .catamania h4,
 #cv article .apprenticeship h4,
-#cv article .trainee h4 {
+#cv article .trainee h4,
+#cv article .pro-form h4,
+#cv article .university h4 {
 	font-size: 1.2em;
 }
 
@@ -195,13 +264,15 @@ footer {
 
 #cv article .catamania .sub-xp .resume-xp .tools li,
 #cv article .apprenticeship .sub-xp .resume-xp .tools li,
-#cv article .trainee .sub-xp .resume-xp .tools li {
+#cv article .trainee .sub-xp .resume-xp .tools li,
+.gamebuino-projects li {
     font-size: 0.8em;
 }
 
 #cv article .catamania .sub-xp .resume-xp .tools,
 #cv article .apprenticeship .sub-xp .resume-xp .tools,
-#cv article .trainee .sub-xp .resume-xp .tools {
+#cv article .trainee .sub-xp .resume-xp .tools,
+.gamebuino-projects {
     /* Retirer les puces par défaut et les marges */
     list-style: none;
     padding: 0;
@@ -217,7 +288,8 @@ footer {
 /* Ajouter l'astérisque après chaque élément */
 #cv article .catamania .sub-xp .resume-xp .tools li::after,
 #cv article .apprenticeship .sub-xp .resume-xp .tools li::after,
-#cv article .trainee .sub-xp .resume-xp .tools li::after {
+#cv article .trainee .sub-xp .resume-xp .tools li::after,
+.gamebuino-projects li::after {
     content: "¤";
     margin-left: 0.5rem; /* Espace avant l'astérisque */
 }
@@ -225,7 +297,8 @@ footer {
 /* Retirer l'astérisque du tout dernier élément de la liste */
 #cv article .catamania .sub-xp .resume-xp .tools li:last-child::after,
 #cv article .apprenticeship .sub-xp .resume-xp .tools li:last-child::after,
-#cv article .trainee .sub-xp .resume-xp .tools li:last-child::after {
+#cv article .trainee .sub-xp .resume-xp .tools li:last-child::after,
+.gamebuino-projects li:last-child::after {
     content: "";
 }
 

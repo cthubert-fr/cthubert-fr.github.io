@@ -3,6 +3,26 @@ layout: index
 permalink: /cv
 ---
 
+<nav id="toc" >
+    <ul>
+        <li><a href="#catamania-xp" >Catamania</a></li>
+        <li><a href="#smacl-xp" >Mission SMACL</a></li>
+        <li><a href="#mapa-xp" >Mission MAPA</a></li>
+        <li><a href="#apprenticeship-xp" >Apprentissage INRA</a></li>
+        <li><a href="#trainee-inra-xp" >Stage INRA</a></li>
+        <li><a href="#trainee-ridinfo-xp" >Stage Groupe Ridoret</a></li>
+        <li><a href="#pro-form-angular-2025" >Formation Angular</a></li>
+        <li><a href="#pro-form-hibernate-2024" >Formation Hibernate</a></li>
+        <li><a href="#pro-form-vuejs-2022" >Formation Vue.js</a></li>
+        <li><a href="#master-icone" >Master ICONE</a></li>
+        <li><a href="#licence-informatique" >Licence Informatique</a></li>
+        <li><a href="#dut-informatique" >DUT Informatique</a></li>
+        <li><a href="#hobby-dev" >Loisir développement logiciels</a></li>
+        <li><a href="#hobby-photography" >Loisir photographie</a></li>
+        <li><a href="#" >Remoter en haut de page</a></li>
+    </ul>
+</nav>
+
 <section id="cv" >
 	<article id="intro" >
 		<h2>Curriculum Vitae</h2>
@@ -22,10 +42,10 @@ permalink: /cv
 	</article>
 	<article>
 		<h2>Expériences</h2>
-		<div class="catamania" >
+		<div class="catamania" id="catamania-xp" >
 			<h3>CDI - Analyste Développeur</h3>
 			<h4>Catamania, Depuis octobre 2016</h4>
-			<div class="sub-xp" >
+			<div class="sub-xp" id="smacl-xp" >
 				<h5>En mission à la SMACL (Niort, Deux-Sèvres)</h5>
 				<div class="resume-xp" >
 					<h6>Qui</h6>
@@ -70,17 +90,17 @@ permalink: /cv
 					</p>
 					<p>
 						Parmis le contenu, on retrouve :
-						<ul>
-							<li>La configuration de son environnement de travail (IDE, projets, etc).</li>
-							<li>Des astuces divers et variés (métiers ou IT).</li>
-							<li>Etc</li>
-						</ul>
 					</p>
+                    <ul>
+                        <li>La configuration de son environnement de travail (IDE, projets, etc).</li>
+                        <li>Des astuces divers et variés (métiers ou IT).</li>
+                        <li>Etc</li>
+                    </ul>
 				</div>
 				<div class="project" >
 					<h6>Création de endpoints à destination d'un batch</h6>
 					<p>
-						J'ai développé plusieurs endpoint pour extraire des données de la base de données et exposé des données consolidées pour un traitement de masse (batch).<br/>
+						J'ai développé plusieurs endpoint pour extraire des données de la base de données et exposer des données consolidées pour un traitement de masse (batch).<br/>
 						Ce batch a pour objectif de faire une rapport comptable.
 					</p>
 					<p>
@@ -125,7 +145,7 @@ permalink: /cv
 					</p>
 				</div>
 			</div>
-			<div class="sub-xp" >
+			<div class="sub-xp" id="mapa-xp" >
 				<h5>En mission à la MAPA (Saint-Jean-d'Angély, Charente-Maritime)</h5>
 				<div class="resume-xp" >
 					<h6>Qui</h6>
@@ -224,7 +244,7 @@ permalink: /cv
 				</div>
 			</div>
         </div>
-        <div class="apprenticeship" >
+        <div class="apprenticeship" id="apprenticeship-xp" >
             <h3>Apprentissage - Analyste Développeur, Chef de projet</h3>
             <h4>INRA, De septembre 2014 à août 2016</h4>
 			<div class="sub-xp" >
@@ -298,7 +318,7 @@ permalink: /cv
 				</div>
 			</div>
         </div>
-        <div class="trainee" >
+        <div class="trainee" id="trainee-inra-xp" >
             <h3>Stagiare - Analyste Développeur</h3>
             <h4>INRA, De mars à juillet 2014</h4>
 			<div class="sub-xp" >
@@ -330,15 +350,15 @@ permalink: /cv
 					<h6>Développement modules pour application Web</h6>
 					<p>
 						Au cours de mon stage, j'ai pu développer les deux modules suivants, qui s'intègre à l'application Web "Dexter" (pour Données Expérimentales de Terrain) :
-						<ul>
-							<li>un éditeur de formule,</li>
-							<li>et un calendrier des interventions.</li>
-						</ul>
 					</p>
+                    <ul>
+                        <li>un éditeur de formule,</li>
+                        <li>et un calendrier des interventions.</li>
+                    </ul>
 				</div>
 			</div>
         </div>
-        <div class="trainee" >
+        <div class="trainee" id="trainee-ridinfo-xp" >
             <h3>Stagiare - Analyste Développeur</h3>
             <h4>Ridinfo - Groupe Ridoret, De avril à juin 2013</h4>
 			<div class="sub-xp" >
@@ -365,22 +385,22 @@ permalink: /cv
 					<h6>Développement informatique de gestion</h6>
 					<p>
 						Au cours de mon stage, j'ai réalisé différentes missions :
-						<ul>
-							<li>Dans un premier temps, j'ai réalisé un applicatif qui envoie les mails du Groupe avec gestion des pièces jointes et des erreurs (adresses mails invalides et cetera).</li>
-							<li>Ensuite ma mission principale, qui était l'amélioration de l'ergonomie d'une application (refonte du menu, entre autre). Pour cela je suis allé recueillir les besoins des utilisateurs afin de rédiger le cahier des charges.</li>
-							<li>Et pour conclure mon stage, j'ai réalisé une étude de faisabilité sur l'implémentation du service Google Maps dans une application Windev.</li>
-						</ul>
 					</p>
+                    <ul>
+                        <li>Dans un premier temps, j'ai réalisé un applicatif qui envoie les mails du groupe avec gestion des pièces jointes et des erreurs (adresses mails invalides et cetera).</li>
+                        <li>Ensuite ma mission principale, qui était l'amélioration de l'ergonomie d'une application (refonte du menu, entre autre). Pour cela je suis allé recueillir les besoins des utilisateurs afin de rédiger le cahier des charges.</li>
+                        <li>Et pour conclure mon stage, j'ai réalisé une étude de faisabilité sur l'implémentation du service Google Maps dans une application Windev.</li>
+                    </ul>
 				</div>
 			</div>
 		</div>
 	</article>
 	<article>
-		<h2>Développement professionnel</h2>
-		<p>
+		<h2 class="pro-form-text" >Développement professionnel</h2>
+		<p class="pro-form-text" >
 			Dans cette partie, je vous présente les formations professionnelles que j'ai pu suivre.
 		</p>
-		<div class="pro-form" >
+		<div class="pro-form" id="pro-form-angular-2025" >
 			<h3>Formation Udemy sur Angular</h3>
 			<h4>Catamania, Mai 2025</h4>
 			<p>
@@ -388,28 +408,28 @@ permalink: /cv
 				Sur mon temps personnelle, j'ai également développé une petite application Angular 19 que vous pouvez retrouvez sur <a href="https://github.com/js-playground-of-css/ng-playground-app/" >ce dépôt GitHub</a>.
 			</p>
 		</div>
-		<div class="pro-form" >
+		<div class="pro-form" id="pro-form-hibernate-2024" >
 			<h3>Formation Udemy sur Hibernate</h3>
 			<h4>Catamania, Janvier 2024</h4>
 			<p>
 				J'ai mis en application cette formation pendant ma mission à la SMACL.
 			</p>
 		</div>
-		<div class="pro-form" >
+		<div class="pro-form" id="pro-form-vuejs-2022" >
 			<h3>Formation de groupe à Vue.js</h3>
 			<h4>Catamania, via un formateur professionnel, Mars 2022</h4>
 			<p>
 				J'ai pu mettre en oeuvre les connaissances acquises lors de cette formation au cours de deux projets, pendant ma mission à la MAPA.
-				<ul>
-					<li>Développement d'un utilitaire pour faciliter le développement dans le cadre d'un projet santé.</li>
-					<li>Développement d'une application front dans le cadre d'un projet de gestion des sinistres automobile.</li>
-				</ul>
 			</p>
+            <ul>
+                <li>Développement d'un utilitaire pour faciliter le développement dans le cadre d'un projet santé.</li>
+                <li>Développement d'une application front dans le cadre d'un projet de gestion des sinistres automobile.</li>
+            </ul>
 		</div>
 	</article>
 	<article>
-		<h2>Cursus</h2>
-		<div class="form" >
+		<h2 class="university-text" >Cursus</h2>
+		<div class="university" id="master-icone" >
 			<h3>Master Informatique : ICONE</h3>
 			<h4>Université de La Rochelle, 2016</h4>
 			<p>
@@ -418,14 +438,14 @@ permalink: /cv
 				En apprentissage pendant les deux du Master
 			</p>
 		</div>
-		<div class="form" >
+		<div class="university" id="licence-informatique" >
 			<h3>Licence Informatique</h3>
 			<h4>Université de La Rochelle, 2014</h4>
 			<p>
 				Formation à l'architecture client / serveur et à la sécurité des réseaux
 			</p>
 		</div>
-		<div class="form" >
+		<div class="university" id="dut-informatique" >
 			<h3>DUT Informatique</h3>
 			<h4>IUT de La Rochelle, 2013</h4>
 			<p>
@@ -436,8 +456,8 @@ permalink: /cv
 		</div>
 	</article>
 	<article>
-		<h2>Centres d'intérêt</h2>
-		<div class="hobby" >
+		<h2 class="hobby-text" >Centres d'intérêt</h2>
+		<div class="hobby" id="hobby-dev" >
 			<h3>Développement logiciels</h3>
 			<p>
 				Le développement logiciels est une grande source d'inspiration pour moi.<br />
@@ -447,10 +467,10 @@ permalink: /cv
             <ul>
                 <li>
                     Certains des projets autour de Gamebuino :
-                    <ul>
-                        <li>Rubik's cube (jeu vidéo),</li>
-                        <li>Puissance 4 (jeu vidéo),</li>
-                        <li>Introduction au développement de jeu de plateformes (atelier),</li>
+                    <ul class="gamebuino-projects" >
+                        <li>Rubik's cube (jeu vidéo)</li>
+                        <li>Puissance 4 (jeu vidéo)</li>
+                        <li>Introduction au développement de jeu de plateformes (atelier)</li>
                         <li>Etc</li>
                     </ul>
                 </li>
@@ -458,7 +478,7 @@ permalink: /cv
                 <li>Je vous laisse retourner le web pour retrouver d'autres projets&nbsp;<span class="smiley" >&#x1F609;</span></li>
             </ul>
 		</div>
-		<div class="hobby" >
+		<div class="hobby" id="hobby-photography" >
 			<h3>Photographie</h3>
 			<p>
 				J'aime énormément prendre des photos, surtout de mon animal de compagnie mais aussi de mes proches.<br />
