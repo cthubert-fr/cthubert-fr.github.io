@@ -74,6 +74,17 @@ footer {
 	padding-bottom: 0.2%;
 	background-color: rgba(51, 51, 51, .5);
 }
+
+/* ***********************************************************************
+   ** Début style Curriculum Vitae                                      **
+   *********************************************************************** */
+
+/*#cv*/ 
+
+/* ***********************************************************************
+   ** Fin style Curriculum Vitae                                        **
+   *********************************************************************** */
+
 /* In portrait (820x1180 or 1024x1366) */
 @media only screen and (orientation: portrait) and (
 	((max-device-width: 820px) and (max-device-height: 1180px)) or 
