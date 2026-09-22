@@ -7,7 +7,7 @@ permalink: /
 	<article>
 		<h2>Qui suis-je ?</h2>
 		<p>
-			Si vous souhaitez en apprendre plus sur moi, je vous invite à consulter <a href="{{ site.url }}/qui-suis-je" >cette page</a>.
+			Si vous souhaitez en apprendre plus sur moi, je vous invite à consulter <a href="{{ site.url }}/qui-suis-je" >cette page</a> et <a href="{{ site.url }}/cv" >mon Curriculum Vitae</a>.
 		</p>
 	</article>
 	<article>
