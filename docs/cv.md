@@ -1,6 +1,6 @@
 ---
 layout: index
-permalink: /
+permalink: /cv
 ---
 
 <section id="cv" >
@@ -11,6 +11,7 @@ permalink: /
 		</p>
 	</article>
 	<article id="general" >
+        <noscript><p>&#x1F6A8; Merci d'activer JavaScript !</p></noscript>
 		<p>
 			<ul>
 				<li><span id="age" >N</span> ans</li>
@@ -22,7 +23,7 @@ permalink: /
 	<article>
 		<h2>Expériences</h2>
 		<div class="main-xp" >
-			<h3>CDI - Analyste Développeur<h3>
+			<h3>CDI - Analyste Développeur</h3>
 			<h4>Catamania, Depuis octobre 2016</h4>
 			<div class="sub-xp" >
 				<h5>En mission à la SMACL (Niort, Deux-Sèvres)</h5>
@@ -63,6 +64,7 @@ permalink: /
 							<li>Graylog</li>
 							<li>Copilot</li>
 							<li>Jira</li>
+                        </ul>
 					</p>
 				</div>
 				<div class="project" >
@@ -165,6 +167,7 @@ permalink: /
 							<li>Mantis</li>
 							<li>GLPI</li>
 							<li>Jira</li>
+                        </ul>
 					</p>
 				</div>
 				<div class="project" >
@@ -228,6 +231,10 @@ permalink: /
 					</p>
 				</div>
 			</div>
+        </div>
+        <div class="apprenticeship" >
+            <h3>Apprentissage - Analyste Développeur, Chef de projet</h3>
+            <h4>INRA, De septembre 2014 à août 2016</h4>
 			<div class="sub-xp" >
 				<h5>En apprentissage à l'UE FERLUS, INRA (Lusignan, Vienne)</h5>
 				<div class="resume-xp" >
@@ -251,6 +258,7 @@ permalink: /
 							<li>PostgreSQL</li>
 							<li>Modélio (UML)</li>
 							<li>Linux</li>
+                        </ul>
 					</p>
 				</div>
 				<div class="project" >
@@ -299,6 +307,10 @@ permalink: /
 					</p>
 				</div>
 			</div>
+        </div>
+        <div class="trainee" >
+            <h3>Stagiare - Analyste Développeur</h3>
+            <h4>INRA, De mars à juillet 2014</h4>
 			<div class="sub-xp" >
 				<h5>En stage à l'UE FERLUS, INRA (Lusignan, Vienne)</h5>
 				<div class="resume-xp" >
@@ -323,6 +335,7 @@ permalink: /
 							<li>jQuery</li>
 							<li>PostgreSQL</li>
 							<li>Linux</li>
+                        </ul>
 					</p>
 				</div>
 				<div class="project" >
@@ -336,6 +349,10 @@ permalink: /
 					</p>
 				</div>
 			</div>
+        </div>
+        <div class="trainee" >
+            <h3>Stagiare - Analyste Développeur</h3>
+            <h4>Ridinfo - Groupe Ridoret, De avril à juin 2013</h4>
 			<div class="sub-xp" >
 				<h5>En stage au sein du service informatique du Groupe Ridoret - Ridinfo (La Rochelle, Charente-Maritime)</h5>
 				<div class="resume-xp" >
@@ -408,7 +425,7 @@ permalink: /
 		<h2>Cursus</h2>
 		<div class="form" >
 			<h3>Master Informatique : ICONE</h3>
-			<h4>Université de La Rochelle, 2016<h4>
+			<h4>Université de La Rochelle, 2016</h4>
 			<p>
 				Vision d'ensemble de la circulation des flux numériques au sein des entreprises.<br />
 				Spécialisation à l'informatique décisionnelle (en deuxième année)<br />
@@ -434,7 +451,7 @@ permalink: /
 	</article>
 	<article>
 		<h2>Centres d'intérêt</h2>
-		<div class="ci" >
+		<div class="hobby" >
 			<h3>Développement logiciels</h3>
 			<p>
 				Le développement logiciels est une grande source d'inspiration pour moi.<br />
@@ -453,7 +470,7 @@ permalink: /
 				</ul>
 			</p>
 		</div>
-		<div class="ci" >
+		<div class="hobby" >
 			<h3>Photographie</h3>
 			<p>
 				J'aime énormément prendre des photos, surtout de mon animal de compagnie mais aussi de mes proches.<br />
@@ -461,9 +478,14 @@ permalink: /
 			</p>
 		</div>
 	</article>
-	<script type="text/javascript" src="assets/js/calculerAge.js" >
-	<script type="text/javascript" >
-		const champAge = document.querySelector('#age');
-		champAge.value = calculerAge('1992-11-02'); // Probablement une fausse date de naissance !
-	</stript>
 </section>
+
+<script src="./assets/js/calculerAge.js" ></script>
+<script>
+    const champAge = document.getElementById('age');
+    if(champAge) {
+        champAge.textContent = `${calculerAge('1992-11-02')}`; // Probablement une fausse date de naissance !
+    } else {
+        console.error('Problème de mise à jour de l\'âge...');
+    }
+</script>
