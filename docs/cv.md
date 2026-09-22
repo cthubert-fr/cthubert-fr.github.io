@@ -19,7 +19,7 @@ permalink: /cv
         <li><a href="#dut-informatique" >DUT Informatique</a></li>
         <li><a href="#hobby-dev" >Loisir développement logiciels</a></li>
         <li><a href="#hobby-photography" >Loisir photographie</a></li>
-        <li><a href="#" >Remoter en haut de page</a></li>
+        <li><a href="#" >Remonter en haut de page</a></li>
     </ul>
 </nav>
 
